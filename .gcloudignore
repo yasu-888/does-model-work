@@ -1,0 +1,22 @@
+# Git 関連
+.git
+.gitignore
+
+# 依存・ビルド成果物
+node_modules
+dist
+
+# エディタ・OS
+.vscode
+.idea
+.DS_Store
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 環境変数ファイル（Cloud Run 側で設定する）
+.env
+.env.*

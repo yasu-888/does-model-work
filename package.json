@@ -1,0 +1,25 @@
+{
+  "name": "hono-minimal-app-template",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "@google/genai": "1.30.0",
+    "@hono/node-server": "1.19.6",
+    "hono": "4.10.7"
+  },
+  "devDependencies": {
+    "@hono/vite-dev-server": "0.23.0",
+    "@tailwindcss/vite": "4.1.17",
+    "@types/node": "20.19.25",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "vite": "7.2.4"
+  }
+}
